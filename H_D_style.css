@@ -1,0 +1,32 @@
+.dropbutton
+{
+    background-color: darkblue;
+    color: black;
+    padding: 20px;
+}
+
+.dropdown
+{
+    position: absolute;
+    display: block;
+}
+.content
+{
+    display: none;
+}
+.content a
+{
+    color: red;
+    display: block;
+    width: 100px;
+    text-decoration: none;
+}
+.dropdown:hover .content
+{
+    display: block;
+}
+.content a:hover
+{
+    background-color: cadetblue;
+    color: green;
+}

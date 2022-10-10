@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html lang="en-IN">
+  <head>
+    <title></title>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width" />
+    <style>
+      body{
+        background-color:khaki;
+        color:maroon;
+        font-family:arial;
+      }
+      hr{
+        width:500px;
+        border: 2px solid maroon;
+        background-color:maroon;
+      }
+      tr{
+        background-color:rgba(165, 165, 165, 0.4);
+        
+      }
+      td{
+        margin-bottom: 10px;
+        padding:10px;
+      }
+      .loginForm{
+        margin: auto;
+        text-align: center;
+      }
+      table{
+        margin-left: 355px;
+        text-align: left;
+      }
+      .mainLabel{
+        font-weight:bold;
+      }
+      .subLabel{
+        font-size: 16px;
+      }
+      input[type="submit"]{
+        padding:10px;
+        background-color:maroon;
+        color:white;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="" method="">
+      <div class="loginForm">
+        <h2>Military Submission Form:</h2>
+        <hr>
+        <br>
+        <table>
+          <tr>
+            <td><label for="name" class="mainLabel">Full Name:</label></td>
+            <td><input type="text" id="name" /></td>
+          </tr>
+          <tr>
+            <td><label for="email" class="mainLabel">Email:</label></td>
+            <td><input type="email" id="email" /></td>
+          </tr>
+          <tr>
+            <td><label for="pass" class="mainLabel">Password:</label></td>
+            <td><input type="password" id="pass" /></td>
+          </tr>
+          <tr>
+            <td><label for="confirmPass" class="mainLabel">Confirm Password:</label></td>
+            <td><input type="password" id="confirmPass" /></td>
+          </tr>
+          <tr>
+            <td><label for="dob" class="mainLabel">Choose DOB:</label></td>
+            <td><input type="date" id="dob" /></td>
+          </tr>
+          <tr>
+            <td class="mainLabel">Gender:</td>
+            <td>
+              <input type="radio" id="male" name="gender" value="Male" /><label
+                for="male"
+                class="subLabel"
+                >Male</label
+              >
+              <input
+                type="radio"
+                id="female"
+                name="gender"
+                value="Female"
+              /><label for="female"
+              class="subLabel">Female</label>
+              <input
+                type="radio"
+                id="other"
+                name="gender"
+                value="Other"
+              /><label for="other"
+              class="subLabel">Other</label>
+            </td>
+          </tr>
+          <tr>
+            <td class="mainLabel">Educational Qualif. :</td>
+            <td>
+              <input
+                type="checkbox"
+                id="mSchoolGrad"
+                name="qualif"
+                value="Middle School"
+              /><label for="mSchoolGrad"
+              class="subLabel">Middle School</label>
+              <input
+                type="checkbox"
+                id="hSchoolGrad"
+                name="qualif"
+                value="High School"
+              /><label for="hSchoolGrad"
+              class="subLabel">High School</label>
+              <br>
+              <input
+                type="checkbox"
+                id="cGrad"
+                name="qualif"
+                value="College"
+              /><label for="cGrad"
+              class="subLabel">College</label>
+              <input
+                type="checkbox"
+                id="masters"
+                name="qualif"
+                value="Masters"
+              /><label for="masters"
+              class="subLabel">Masters</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="state" class="mainLabel">State</label></td>
+            <td><select name="state" id="state">
+              <option value="Jammu-kashmir">Jammu-kashmir</option>
+              <option value="Himachal">Himachal</option>
+              <option value="Punjab">Punjab</option>
+              <option value="Rajasthan">Rajasthan</option>
+              <option value="Gujarat">Gujarat</option>
+              <option value="Madhya Pradesh">Madhya Pradesh</option>
+            </select></td>
+          </tr>
+        </table>
+        <br>
+        <input type="submit" value="Submit Form">
+    </form>
+    </div>
+  </body>
+</html>
